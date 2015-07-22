@@ -1,6 +1,6 @@
 #@brief  CMake config
 #@author Yaopei
-#@date   2015-07-02
+#@date   2015-07-22
 #@note   This CMakeLists.txt for project CMakeModel
 
 PROJECT(CMAKEMODE)
@@ -26,7 +26,5 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 #set sub directory
-ADD_SUBDIRECTORY(src)	
-ADD_SUBDIRECTORY(test)	
-
-    
+ADD_SUBDIRECTORY(src)
+ADD_SUBDIRECTORY(test)
